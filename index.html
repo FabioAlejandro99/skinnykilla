@@ -8,87 +8,132 @@
       background-color: #111;
       color: #eee;
       font-family: Arial, Helvetica, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background: #000;
+      padding: 20px 0;
+      text-align: center;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      border-bottom: 2px solid #444;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+
+    nav {
+      margin-top: 10px;
+    }
+
+    nav a {
+      color: #eee;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      color: #1db954; /* Verde vibrante */
+    }
+
+    main {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 0 20px;
+      text-align: justify;
+    }
+
+    iframe {
+      display: block;
+      margin: 40px auto;
+      border: none;
+    }
+
+    footer {
+      background: #000;
       text-align: center;
       padding: 20px;
+      color: #888;
+      border-top: 2px solid #444;
     }
-    h1 {
-      font-size: 3em;
-      margin-bottom: 0.2em;
-    }
-    p {
-      font-size: 1.2em;
-      margin-bottom: 1.5em;
-    }
+
     img {
-      max-width: 90%;
+      max-width: 100%;
       height: auto;
-      margin: 20px 0;
       border: 5px solid #444;
+      display: block;
+      margin: 30px auto;
     }
-    iframe {
-      margin: 20px 0;
-      border: none;
+
+    h2 {
+      text-align: center;
+      margin-top: 40px;
     }
   </style>
 </head>
+
 <body>
-  <h1>Skinny Killa Rapero Bogotano su vida y muerte </h1>
-  <p>Skinny Killa fue un rapero colombiano que hizo música acorde a su estilo de vida: una existencia marcada por el amor a la muerte y la crudeza de la calle. MC bogotano activo en la escena underground, se movió en barrios como Engativá, Ciudad Bolívar y el Centro Histórico, donde se hizo conocido tanto en la calle como en YouTube, gracias a videos improvisando rap “real” en zonas populares.
+  <header>
+    <h1>Skinny Killa</h1>
+    <nav>
+      <a href="#historia">Historia</a>
+      <a href="#videos">Videos</a>
+      <a href="#colectivo">Colectivo</a>
+      <a href="#reflexion">Reflexión</a>
+    </nav>
+  </header>
 
-Fue parte del colectivo Reincidentes, junto con Fumaz Bolívar y Carbonero, y durante un tiempo estuvo encarcelado en La Modelo, hecho que marcó profundamente su obra. Su estilo mezcla rap de barrio sin filtro, con letras que retratan la realidad del gueto, la violencia y la experiencia callejera de Bogotá. Skinny Killa representa ese rap que no es mainstream ni comercial, sino que permanece conectado al pulso de los barrios vulnerables y a la narración cruda de la cotidianidad, como muchos otros artistas del underground capitalino.
+  <main>
+    <section id="historia">
+      <h2>Rapero Bogotano: Vida y Muerte</h2>
+      <p>Skinny Killa fue un rapero colombiano que hizo música acorde a su estilo de vida: una existencia marcada por el amor a la muerte y la crudeza de la calle. MC bogotano activo en la escena underground, se movió en barrios como Engativá, Ciudad Bolívar y el Centro Histórico, donde se hizo conocido tanto en la calle como en YouTube, gracias a videos improvisando rap “real” en zonas populares.</p>
+      <p>Fue parte del colectivo Reincidentes, junto con Fumaz Bolívar y Carbonero, y durante un tiempo estuvo encarcelado en La Modelo, hecho que marcó profundamente su obra. Su estilo mezcla rap de barrio sin filtro, con letras que retratan la realidad del gueto, la violencia y la experiencia callejera de Bogotá. Skinny Killa representa ese rap que no es mainstream ni comercial, sino que permanece conectado al pulso de los barrios vulnerables y a la narración cruda de la cotidianidad.</p>
+      <p>Sin embargo, su vida no fue solo música: los problemas con las drogas y la delincuencia lo llevaron a habitar en la calle. Su adicción a la bazuca se convirtió en un motor oscuro que lo empujaba a comportamientos extremos, confinándolo a esquinas y fronteras invisibles. Paradójicamente, su amor por la muerte era lo que lo impulsaba a levantarse cada mañana, pues la muerte se volvió su estilo de vida, su refugio y su inspiración.</p>
+    </section>
 
-Sin embargo, su vida no fue solo música: los problemas con las drogas y la delincuencia lo llevaron a habitar en la calle. Su adicción a la bazuca se convirtió en un motor oscuro que lo empujaba a comportamientos extremos, confinándolo a esquinas y fronteras invisibles. Paradójicamente, su amor por la muerte era lo que lo impulsaba a levantarse cada mañana, pues la muerte se volvió su estilo de vida, su refugio y su inspiración.
+    <section id="videos">
+      <h2>Videos</h2>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/4pS1qqFJ7xM?list=RD4pS1qqFJ7xM"
+        title="Skinny Killa Video 1" allowfullscreen></iframe>
 
-Su dolor interno y sus comportamientos al límite convirtieron su entorno en un espacio tenaz y difícil, pero también en materia prima para mostrar la realidad sin maquillajes: la dureza de la vida en barrios populares, la omnipresencia de la droga que transforma a las personas y la contradicción de querer salir adelante mientras uno mismo se autodestruye.</p>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/bqwXQpy__VM?list=RDbqwXQpy__VM"
+        title="Skinny Killa Video 2" allowfullscreen></iframe>
 
-  <!-- Video de YouTube -->
-  <iframe width="560" height="315"
-    src="https://www.youtube.com/embed/4pS1qqFJ7xM?list=RD4pS1qqFJ7xM"
-    title="Skinny Killa Video" frameborder="0"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    allowfullscreen>
-  </iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/FfA1RWrxCvY?list=RDFfA1RWrxCvY"
+        title="Skinny Killa Video 3" allowfullscreen></iframe>
+    </section>
 
-<p>El talento que tiene una persona debería, en lo posible, ser canalizado hacia cosas positivas. A pesar de las dificultades, siempre es posible salir adelante, y eso es algo fundamental que no debemos olvidar. La letra fuerte de Skinny Killa, cargada de referencias a la muerte y a la cruda realidad, es su forma de expresar que la lucha por la vida en los barrios marginales va más allá de un estilo musical: es un grito de resistencia y rebeldía.
+    <section id="colectivo">
+      <h2>Indios Latinos</h2>
+      <p>Skinny Killa, conocido por su rap crudo y callejero, también formó parte del colectivo Indios Latinos, una agrupación que combina hip-hop, activismo y conciencia social. A través de esta unión, Skinny Killa aportó su voz y su historia a un proyecto que busca visibilizar la realidad de los barrios populares, la lucha contra la desigualdad y la resistencia cultural de las comunidades marginadas. Su participación en Indios Latinos demuestra cómo su talento fue más allá de la música de barrio, sumándose a una propuesta que mezcla letras de denuncia, beats potentes y un mensaje claro de rebeldía y transformación social.</p>
+    </section>
 
-A través de su música, se evidencia cómo muchas personas demuestran coraje frente a un entorno hostil, dejando claro que el Estado tiene una responsabilidad clave en municipios y ciudades para enfrentar problemas de inseguridad, garantizar educación y cubrir necesidades básicas que permitan a sus comunidades vivir con dignidad.
+    <section id="reflexion">
+      <h2>Reflexión Final</h2>
+      <p>Y bueno, ya para finalizar: esto es solo una muestra que armé porque tuve el tiempo y me pareció interesante, acorde a mis gustos. Se trata de un artista de rap que no tuvo mucho reconocimiento, pero cuyo arte lo hizo sonar fuerte. Hoy ya no está en este mundo, pero quedaron algunas de sus canciones por ahí, donde su vida estuvo marcada por problemáticas sociales reales: encarcelamiento, drogas, pobreza y violencia, elementos que él mismo narraba en su música.</p>
+      <p>La importancia de brindar información lógica y coherente, y de orientar a los jóvenes, es fundamental. Muchas veces la educación se vuelve un desafío, especialmente porque se vive en la lucha diaria —ese ‘diario’ como se dice coloquialmente—, en un contexto donde la drogadicción financia la guerra en el país y la delincuencia se extiende en las ciudades. El Estado debe ejercer mayor control y ofrecer alternativas claras para que las personas puedan encontrar caminos para salir adelante, ya que las cárceles están llenas de delincuencia común y corrupción que podrían prevenirse con oportunidades reales.</p>
+    </section>
 
-Se dice que Skinny Killa fue asesinado en un barrio popular de las calles bogotanas. Su historia, marcada por la crudeza de su entorno, nos recuerda que cuando el talento no encuentra caminos de apoyo y oportunidades reales, muchas veces termina apagándose en la misma calle que le dio vida.<p>
+    <!-- Facebook Video -->
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous"
+      src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v18.0" nonce="ABC123"></script>
 
-  <!-- Otro Video de YouTube -->
-  <iframe width="560" height="315"
-    src="https://www.youtube.com/embed/bqwXQpy__VM?list=RDbqwXQpy__VM"
-    title="Skinny Killa Video 2" frameborder="0"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    allowfullscreen>
-  </iframe>
+    <div class="fb-video"
+      data-href="https://www.facebook.com/caldodecultivo77/videos/789458057878180/"
+      data-width="500"
+      data-show-text="false">
+    </div>
+  </main>
 
-  <h2>Skinny Killa hizo parte de Indios Latinos </h2>
-
-  <p>Skinny Killa, conocido por su rap crudo y callejero, también formó parte del colectivo Indios Latinos, una agrupación que combina hip-hop, activismo y conciencia social. A través de esta unión, Skinny Killa aportó su voz y su historia a un proyecto que busca visibilizar la realidad de los barrios populares, la lucha contra la desigualdad y la resistencia cultural de las comunidades marginadas.
-    Su participación en Indios Latinos demuestra cómo su talento fue más allá de la música de barrio, sumándose a una propuesta que mezcla letras de denuncia, beats potentes y un mensaje claro de rebeldía y transformación social</p>
-
-    <!-- Otro Video de YouTube -->
-  <iframe width="560" height="315"
-    src="https://www.youtube.com/embed/FfA1RWrxCvY?list=RDFfA1RWrxCvY"
-    title="Skinny Killa Video 2" frameborder="0"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    allowfullscreen>
-  </iframe>
-
-  <p>Y bueno, ya para finalizar: esto es solo una muestra que armé porque tuve el tiempo y me pareció interesante, acorde a mis gustos. Se trata de un artista de rap que no tuvo mucho reconocimiento, pero cuyo arte lo hizo sonar fuerte. Hoy ya no está en este mundo, pero quedaron algunas de sus canciones por ahí
-  donde su vida estuvo marcada por problemáticas sociales reales: encarcelamiento, drogas, pobreza y violencia, elementos que él mismo narraba en su música, La importancia de brindar información lógica y coherente, y de orientar a los jóvenes, es fundamental. Muchas veces la educación se vuelve un desafío, especialmente porque se vive en la lucha diaria
-    —ese ‘diario’ como se dice coloquialmente—, en un contexto donde la drogadicción financia la guerra en el país y la delincuencia se extiende en las ciudades. El Estado debe ejercer mayor control y ofrecer alternativas claras para que las personas puedan encontrar caminos para salir adelante, ya que las cárceles están llenas de delincuencia común y corrupción que podrían prevenirse con oportunidades reales.</p>
-
-  <div id="fb-root"></div>
-<script async defer crossorigin="anonymous" 
-  src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v18.0" nonce="ABC123"></script>
-
-<div class="fb-video" 
-  data-href="https://www.facebook.com/caldodecultivo77/videos/789458057878180/" 
-  data-width="500" 
-  data-show-text="false">
-</div>
- 
+  <footer>
+    <p>&copy; 2025 Skinny Killa Tribute | Sitio hecho por Fabio Alejandro</p>
+  </footer>
 </body>
 </html>
